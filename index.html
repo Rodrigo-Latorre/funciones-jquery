@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script></script>
+        <title>JQuery Exercices</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8" crossorigin="anonymous"></script>
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-hide" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>HIDE</h1>
+                <p id="p-hide">Click the button at left to hide this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-show" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>SHOW</h1>
+                <p>Click the button at left to show the paragraph bellow</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-toggle" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>TOGGLE</h1>
+                <p id="p-toggle">Click the button at left to hide or show this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-slideup" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>SLIDEUP</h1>
+                <p id="p-slideup">Click the button at left to slideup this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-slidedown" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>SLIDEDOWN</h1>
+                <p>Click the button at left to slidedown the paragraph bellow</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-stoggle" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>SLIDETOGGLE</h1>
+                <p id="p-stoggle">Click the button at left to slideup or slidedown this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-fadeout" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>FADEOUT</h1>
+                <p id="p-fadeout">Click the button at left to fadeout this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-fadein" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>FADEIN</h1>
+                <p>Click the button at left to fadein the paragraph bellow</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-ftoggle" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>FADETOGGLE</h1>
+                <p id="p-ftoggle">Click the button at left to fadeout or fadein this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-addclass" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>ADDCLASS</h1>
+                <p id="p-addclass">Click the button at left to add class background color yellow for this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-before" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>BEFORE</h1>
+                <p id="p-before">Click the button at left to add a paragraph before to this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-after" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>AFTER</h1>
+                <p id="p-after">Click the button at left to add a paragraph after to this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-append" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>APPEND</h1>
+                <p id="p-append">Click the button at left to append a paragraph to this paragraph</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-html" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>HTML</h1>
+                <p id="p-html">Click the button at left to modify this paragraph with html</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-attr" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>ATTR</h1>
+                <p id="p-attr" class="bg-white">Click the button at left to modify this paragraph class with attr</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <form>
+                    <input id="btn-val" type="submit" class="btn btn-success" value="Click on me!!">
+                </form>
+            </div>
+            <div class="col-6">
+                <h1>VAL</h1>
+                <p id="p-val" class="bg-white">Click the button at left to modify that button with val</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-6">
+                <button id="btn-text" class="btn btn-success">Click on me!!</button>
+            </div>
+            <div class="col-6">
+                <h1>TEXT</h1>
+                <p id="p-text">Click the button at left to modify this paragraph textr</p>
+            </div>
+        </div>
+    <script>
+        $(document).ready(function(){});
+        $('#btn-hide').on('click', function () {$('#p-hide').hide()});
+        $('#btn-show').on('click', function () {$('#p-hide').show()});
+        $('#btn-toggle').on('click', function () {$('#p-toggle').toggle()});
+        $('#btn-slidedown').on('click', function () {$('#p-slideup').slideDown()});
+        $('#btn-slideup').on('click', function () {$('#p-slideup').slideUp()});
+        $('#btn-stoggle').on('click', function () {$('#p-stoggle').slideToggle()});
+        $('#btn-fadein').on('click', function () {$('#p-fadeout').fadeIn()});
+        $('#btn-fadeout').on('click', function () {$('#p-fadeout').fadeOut()});
+        $('#btn-ftoggle').on('click', function () {$('#p-ftoggle').fadeToggle()});
+        $('#btn-addclass').on('click', function () {$('#p-addclass').addClass('bg-warning')});
+        $('#btn-before').on('click', function () {$('#p-before').before('<p>This paragraph is added BEFORE</p>')});
+        $('#btn-after').on('click', function () {$('#p-after').after('<p>This paragraph is added AFTER</p>')});
+        $('#btn-append').on('click', function () {$('#p-append').append('<p>This paragraph is APPEND</p>')});
+        $('#btn-html').on('click', function () {$('#p-html').html('<p>This paragraph has been modified with html</p>')});
+        $('#btn-attr').on('click', function () {$('#p-attr').attr('class','bg-info text-white')})
+        $('#btn-val').on('click', function (event) {event.preventDefault();
+                                                $('#btn-val').val('Clicked!!')});
+        $('#btn-text').on('click', function () {$('#p-text').text('This paragraph has been modified with text')});
+    </script>
+    </body>
+</html>
